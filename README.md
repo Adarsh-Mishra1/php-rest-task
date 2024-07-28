@@ -1,4 +1,4 @@
-Recipe Management API
+#Recipe Management API
 
 This API allows you to manage recipes and their ratings using a simple RESTful interface. It is built using PHP and MySQL, with the application running inside Docker containers.
 
