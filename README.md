@@ -6,12 +6,46 @@ To run this application you need docker installed in your system.
   Create the required files like compose and docker file or you can simply take a pull request from this repository
   it will be fully function with docker in working condtion.
 
-  Steps to run this application:
-    Setup docker
-    Take pull request .
-    Use command docker-compose build
-    then command docker-compose run
-    modify or use the ports as per your need.
+  Setup Docker:
+
+    Ensure Docker is installed on your machine. You can download and install Docker from here.
+
+Clone the Repository:
+
+    Clone the repository to your local machine using the following command:
+
+    sh
+
+    git clone <repository-url>
+
+Navigate to the Project Directory:
+
+    Change to the project directory where the docker-compose.yml file is located.
+
+    sh
+
+    cd <project-directory>
+
+Build the Docker Containers:
+
+    Build the Docker containers using the following command:
+
+    sh
+
+    docker-compose build
+
+Run the Docker Containers:
+
+    Start the Docker containers using the following command:
+
+    sh
+
+    docker-compose up
+
+Access the Application:
+
+    The application will be available at http://localhost. Adjust the port in the docker-compose.yml file if needed.
+    PHPMyAdmin can be accessed at http://localhost:8080.
   
 Features
 
